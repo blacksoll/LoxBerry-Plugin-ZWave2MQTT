@@ -1,0 +1,20 @@
+[Unit]
+Description=ZWave2MQTT for LoxBerry
+Wants=network-online.target
+After=network-online.target createtmpfs.service loxberry.service
+
+[Service]
+Type=simple
+Environment=PATH=/opt/zwave-js-ui/node/bin:/opt/zwave-js-ui/app/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+EnvironmentFile=__ENVFILE__
+WorkingDirectory=/opt/zwave-js-ui/app/lib/node_modules/zwave-js-ui
+ExecStart=/opt/zwave-js-ui/app/bin/zwave-js-ui
+Restart=always
+RestartSec=20
+User=loxberry
+Group=loxberry
+SupplementaryGroups=dialout
+UMask=0002
+
+[Install]
+WantedBy=multi-user.target

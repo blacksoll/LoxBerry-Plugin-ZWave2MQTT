@@ -1,0 +1,5 @@
+loxberry ALL=(ALL) NOPASSWD: /bin/systemctl start zwavemqtt
+loxberry ALL=(ALL) NOPASSWD: /bin/systemctl stop zwavemqtt
+loxberry ALL=(ALL) NOPASSWD: /bin/systemctl restart zwavemqtt
+loxberry ALL=(ALL) NOPASSWD: /bin/systemctl status zwavemqtt
+loxberry ALL=(ALL) NOPASSWD: /bin/journalctl -u zwavemqtt *

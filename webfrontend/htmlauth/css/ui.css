@@ -1,0 +1,151 @@
+
+#page_content {
+  margin: 0 !important;
+}
+
+#page_content .zw-page {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 8px 12px 24px;
+  font-size: 14px;
+  line-height: 1.45;
+  box-sizing: border-box;
+}
+
+#page_content .zw-page, 
+#page_content .zw-page input,
+#page_content .zw-page select,
+#page_content .zw-page button,
+#page_content .zw-page textarea {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#page_content .zw-page h1,
+#page_content .zw-page h2 {
+  margin: 0 0 12px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+#page_content .zw-page h2 {
+  font-size: 30px;
+}
+
+#page_content .zw-page p {
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+#page_content .zw-page label {
+  display: block;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+#page_content .zw-page input[type=text],
+#page_content .zw-page input[type=password],
+#page_content .zw-page input[type=number],
+#page_content .zw-page select {
+  width: 100%;
+  max-width: 720px;
+  padding: 9px 10px;
+  border: 1px solid #c9c9c9;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+#page_content .zw-page .section {
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin: 16px 0;
+}
+
+#page_content .zw-page .inline label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 400;
+  margin-right: 18px;
+  margin-top: 4px;
+}
+
+#page_content .zw-page .badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #eee;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#page_content .zw-page .help {
+  color: #666;
+  font-size: 13px;
+}
+
+#page_content .zw-page .actions button,
+#page_content .zw-page .actions .btn {
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+#page_content .zw-page code {
+  background: #f4f4f4;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+#page_content .zw-page .zw-alert {
+  padding: 12px 14px;
+  border-radius: 8px;
+  margin: 16px 0;
+  border: 1px solid transparent;
+  font-size: 14px;
+}
+
+#page_content .zw-page .zw-alert-success {
+  background: #e8f6e8;
+  border-color: #8bc48b;
+}
+
+#page_content .zw-page .zw-alert-error {
+  background: #fbeaea;
+  border-color: #d58f8f;
+}
+
+@media (max-width: 900px) {
+  #page_content .zw-page {
+    padding: 6px 8px 20px;
+  }
+
+  #page_content .zw-page h2 {
+    font-size: 24px;
+  }
+}
+
+#page_content .zw-page pre.zw-log {
+  margin: 12px 0 0;
+  padding: 12px 14px;
+  background: #111;
+  color: #eee;
+  border-radius: 8px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: 12px;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow: auto;
+  max-height: 70vh;
+}
+
+#page_content .zw-page .section h2 {
+  font-size: 26px;
+}

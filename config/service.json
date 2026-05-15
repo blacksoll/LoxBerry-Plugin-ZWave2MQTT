@@ -1,0 +1,19 @@
+{
+  "zwavePort": "/dev/ttyACM0",
+  "uiPort": 8091,
+  "mqttPrefix": "zwave",
+  "useMqttGateway": false,
+  "mqttHost": "127.0.0.1",
+  "mqttPort": 1883,
+  "mqttUser": "",
+  "mqttPassword": "",
+  "retain": true,
+  "gatewayType": 0,
+  "payloadType": 2,
+  "nodeNames": false,
+  "includeNodeInfo": false,
+  "uiLogEnabled": true,
+  "uiLogLevel": "info",
+  "zwaveLogEnabled": true,
+  "zwaveLogLevel": "info"
+}

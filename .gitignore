@@ -1,0 +1,14 @@
+.git/
+.github/releases/
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+node_modules/
+store/
+data/
+dist/
+build/
+release/
+*.zip
