@@ -1,4 +1,4 @@
-# LoxBerry Plugin ZWave2MQTT - Developed with the help of Open Ai
+# LoxBerry Plugin ZWave2MQTT - Developed with the help of Open Ai for pesronal use but you are welcome to use it. Don't ask for more, cause i'm not a developer !!!
 
 Native LoxBerry plugin that bundles **Z-Wave JS UI** and exposes Z-Wave devices to **LoxBerry** and **Loxone Miniserver** through **MQTT**.
 
