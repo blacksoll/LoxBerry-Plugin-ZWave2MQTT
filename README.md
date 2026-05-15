@@ -1,4 +1,4 @@
-# LoxBerry Plugin ZWave2MQTT
+# LoxBerry Plugin ZWave2MQTT - Developed with the help of Open Ai
 
 Native LoxBerry plugin that bundles **Z-Wave JS UI** and exposes Z-Wave devices to **LoxBerry** and **Loxone Miniserver** through **MQTT**.
 
@@ -6,6 +6,11 @@ This plugin was built for a setup based on:
 - LoxBerry 3.x
 - Aeotec Z-Stick Gen5 / ZW090-C
 - Z-Wave JS UI
+- Many thanks to the  Z-Wave JS UI Team :
+@AlCalzone · Shaper of Waves, Reader of Specifications, Teacher of Bots, Broker of IOs, Crazy enough to start all of this
+@blhoward2 · Writer of Manifests, Master of Consistency
+@marcus-j-davies · Browser of Configs, Plumber of Red Nodes
+@robertsLando · Discoverer of Greatness, Builder of Frontends, Stacker of Statistics
 - MQTT topics consumed by Loxone via virtual UDP / MQTT commands
 
 ## Features
@@ -50,24 +55,6 @@ Example Loxone command:
 MQTT:\izwave/Bedroom/49/0/Air_temperature=\i\v
 ```
 
-## Development workflow
-
-1. Edit the plugin source in this repository.
-2. Build a release ZIP with `scripts/make-release.sh`.
-3. Upload the ZIP to LoxBerry Plugin Management.
-4. Tag the repo and attach the ZIP in GitHub Releases.
-
-## Before publishing
-
-Edit the author information in `plugin.cfg`:
-
-```ini
-[AUTHOR]
-NAME=...
-EMAIL=...
-```
-
-Also review whether you want to add a project license before making the repository public.
 
 ## Tested focus
 
