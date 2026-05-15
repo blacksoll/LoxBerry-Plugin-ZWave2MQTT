@@ -12,6 +12,7 @@ This plugin was built for a setup based on:
 @marcus-j-davies · Browser of Configs, Plumber of Red Nodes
 @robertsLando · Discoverer of Greatness, Builder of Frontends, Stacker of Statistics
 - MQTT topics consumed by Loxone via virtual UDP / MQTT commands
+- Many thanks to the Loxberry Team for giving us this excellent tool which drives Loxone "BEYOND THE LIMITS"
 
 ## Features
 
