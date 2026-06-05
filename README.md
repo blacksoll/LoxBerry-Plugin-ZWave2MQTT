@@ -54,26 +54,6 @@ Example Loxone command:
 MQTT:\izwave/Bedroom/49/0/Air_temperature=\i\v
 ```
 
-## Development workflow
-
-1. Edit the plugin source in this repository.
-2. Build a release ZIP with `scripts/make-release.sh`.
-3. Upload the ZIP to LoxBerry Plugin Management.
-4. Tag the repo and attach the ZIP in GitHub Releases.
-
-## Before publishing
-
-Edit the author information in `plugin.cfg`:
-
-```ini
-[AUTHOR]
-NAME=...
-EMAIL=...
-WEBSITE=...
-```
-
-Also review whether you want to add a project license before making the repository public.
-
 ## Tested focus
 
 The current work focused on:
