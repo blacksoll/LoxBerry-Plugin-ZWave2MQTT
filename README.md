@@ -20,7 +20,7 @@ Current packaged runtime:
 - MQTT bridge for Loxone Miniserver
 - Local persistent store under the LoxBerry plugin directories
 - Web UI page inside LoxBerry plus direct Z-Wave JS UI access
-############################################################################
+########################################################################
 - Many thanks to the  Z-Wave JS UI Team :
 @AlCalzone · Shaper of Waves, Reader of Specifications, Teacher of Bots, Broker of IOs, Crazy enough to start all of this
 @blhoward2 · Writer of Manifests, Master of Consistency
