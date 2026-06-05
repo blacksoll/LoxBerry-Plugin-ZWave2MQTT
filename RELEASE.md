@@ -14,7 +14,7 @@ The script writes a ZIP into `release/`.
 ## Publish to GitHub
 
 1. Commit your changes.
-2. Create a tag, for example `v0.1.10`.
+2. Create a tag, for example `v0.1.11`.
 3. Push the tag.
 4. Open **GitHub Releases**.
 5. Create a new release and upload the ZIP from `release/`.

@@ -74,7 +74,7 @@ export PATH=/opt/zwave-js-ui/node/bin:$PATH
 
 echo "<INFO> Installing zwave-js-ui from npm"
 mkdir -p /opt/zwave-js-ui/app
-npm install -g --omit=dev --unsafe-perm --prefix /opt/zwave-js-ui/app zwave-js-ui@11.14.0
+npm install -g --omit=dev --unsafe-perm --prefix /opt/zwave-js-ui/app zwave-js-ui@11.19.1
 
 echo "<INFO> Preparing data folders"
 mkdir -p "$PDATA/store" "$PDATA/store/config"

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.11
+- Update `zwave-js-ui` from 11.14.0 to 11.19.1
+- Extend declared LoxBerry compatibility to `LB_MAXIMUM=4.99`
+- Add plugin and author `WEBSITE` metadata for newer LoxBerry plugin UI/AppStore integration
+- Refresh README compatibility notes for LoxBerry 4 / MQTT Gateway V2
+
 ## 0.1.10
 - Pin bundled Node.js to 22.22.2
 - Wait for `network-online.target`
